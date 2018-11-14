@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FrontPage from "./containers/HomePage"
 import BioPage from './containers/BioPage';
 import './App.css';
+import FunFactPage from './containers/FunFactPage';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <FrontPage/>
         <BioPage/>
+        <FunFactPage/>
       </div>
     );
   }
