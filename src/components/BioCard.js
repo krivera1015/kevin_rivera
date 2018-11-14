@@ -17,6 +17,7 @@ class BioCard extends Component {
                 <p>Phone</p>
                 <p>Github</p>
                 <p>Email</p>
+                <p>Linkedin</p>
                 We are going to also put a modal that will pop up resume 
                 then a button to actually download it
             </div>
