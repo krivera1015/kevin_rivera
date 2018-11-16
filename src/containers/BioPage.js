@@ -4,7 +4,7 @@ import BioCard from "../components/BioCard"
 class BioPage extends Component {
     render () {
         return (
-            <div>
+            <div className="Bio-page">
                 <BioCard/>
             </div>
         )
