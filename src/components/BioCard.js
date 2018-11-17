@@ -24,6 +24,12 @@ class BioCard extends Component {
                     <p>Github</p>
                     <p>Email</p>
                     <p>Linkedin</p>
+                    {/* <ul id="Contact-list">
+                        <li>Phone</li>
+                        <li>Github</li>
+                        <li>Email</li>
+                        <li>Linkedin</li>
+                    </ul>] */}
                 </div>
                 <div className="Modal">
                     We are going to also put a modal that will pop up resume 
