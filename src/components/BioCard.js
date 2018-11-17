@@ -5,10 +5,10 @@ class BioCard extends Component {
         return (
             <div className="Bio-container">
                 <div className="Profile-picture">
-                    <img src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face" height="100" width="100" border-radius="100"/>
+                    <img id="kevin-pic" src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face"/>
                 </div>
                 <div className="About-me">
-                    <h2>About Me:</h2>
+                    <h2 class="header">About Me:</h2>
                     <p>A foodie, an artist, a social entrepreneur who 
                         fell in love with tech to improve the lives of others. 
                         Believing that nothing is impossible, I pivoted to a 
@@ -19,7 +19,7 @@ class BioCard extends Component {
                         environment.</p>
                 </div>
                 <div className="Contact">
-                    <h2>Lets Chat!</h2>
+                    <h2 class="header">Lets Chat!</h2>
                     <p>Phone</p>
                     <p>Github</p>
                     <p>Email</p>
