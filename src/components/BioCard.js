@@ -5,7 +5,7 @@ class BioCard extends Component {
         return (
             <div className="Bio-container">
                 <div className="Profile-picture">
-                    <img src="smiley.gif" alt="Smiley face" height="42" width="42"/>
+                    <img src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face" height="100" width="100" border-radius="100"/>
                 </div>
                 <div className="About-me">
                     <h2>About Me:</h2>
