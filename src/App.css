@@ -18,5 +18,17 @@
 
 .Bio-container {
   display: grid;
-  grid-template-columns: auto 200px 500px 50px;
+  grid-template-columns: 1fr 60% 1fr;
+  /* grid-gap: 50px; */
+}
+
+.About-me {
+  grid-column: span 2;
+}
+
+@media only screen and (max-width: 800px) {
+  .Bio-container{ 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

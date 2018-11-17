@@ -7,7 +7,7 @@ import FunFactPage from './containers/FunFactPage';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <FrontPage/>
         <BioPage/>
         <FunFactPage/>

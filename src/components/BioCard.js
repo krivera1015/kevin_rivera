@@ -4,6 +4,9 @@ class BioCard extends Component {
     render () {
         return (
             <div className="Bio-container">
+                <div className="Profile-picture">
+                    hey! 
+                </div>
                 <div className="About-me">
                     <h2>About Me:</h2>
                     <p>A foodie, an artist, a social entrepreneur who 
