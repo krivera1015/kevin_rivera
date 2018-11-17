@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .Home-page {
@@ -12,15 +13,10 @@
 }
 
 .Content {
-  color: gray;
+  color: rgb(15, 68, 104);
 }
 
-.Bio-page {
+.Bio-container {
   display: grid;
-  grid-template-areas: 
-      "picDiv content"
-      "contactDiv resume";
-  grid-template-columns: 40px 1fr;
-  grid-template-rows: 1fr 90px;
-  min-height: 100%;
+  grid-template-columns: auto 200px 500px 50px;
 }

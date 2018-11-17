@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 class BioCard extends Component {
     render () {
         return (
-            <div className="BioCard">
-                <div className="About Me">
+            <div className="Bio-container">
+                <div className="About-me">
                     <h2>About Me:</h2>
                     <p>A foodie, an artist, a social entrepreneur who 
                         fell in love with tech to improve the lives of others. 
