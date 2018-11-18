@@ -8,7 +8,7 @@ class BioCard extends Component {
                     <img id="kevin-pic" src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face"/>
                 </div>
                 <div className="About-me">
-                    <h2 class="header">About Me:</h2>
+                    <h2 class="header">About Me</h2>
                     <p>A foodie, an artist, a social entrepreneur who 
                         fell in love with tech to improve the lives of others. 
                         Believing that nothing is impossible, I pivoted to a 
@@ -24,12 +24,6 @@ class BioCard extends Component {
                     <p>Github</p>
                     <p>Email</p>
                     <p>Linkedin</p>
-                    {/* <ul id="Contact-list">
-                        <li>Phone</li>
-                        <li>Github</li>
-                        <li>Email</li>
-                        <li>Linkedin</li>
-                    </ul>] */}
                 </div>
                 <div className="Modal">
                     We are going to also put a modal that will pop up resume 
