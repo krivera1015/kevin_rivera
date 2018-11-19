@@ -8,8 +8,6 @@ class FunFactWall extends Component {
             <div>
                 <FunFactFrontCard/>
                 <FunFactBackCard/>
-                Modal for skills that will pop up and show the skills
-                icons
             </div>
         )
     }
