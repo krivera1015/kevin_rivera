@@ -6,6 +6,7 @@
 .App {
   text-align: center;
   box-sizing: border-box;
+  background-color: #FBFEFB;
 }
 
 .Home-page {
@@ -18,18 +19,18 @@
 }
 
 .Content {
-  color: rgb(15, 68, 104);
+  color: #928C6F;
 }
 
 .Bio-container {
-  background-color: rgb(15, 68, 104);
+  background-color: #928C6F;
   padding-left: 5%;
   padding-right: 15%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   font-size: 12pt;
-  color: rgb(100, 100, 100);
+  color: #C3C48D;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -40,12 +41,13 @@
 }
 
 .header {
-  color: white;
+  color: #FBFEFB;
   line-height: 1.4em;
 }
 .About-me {
   grid-column: span 2;
   text-align: left;
+  line-height: 1.5em;
 }
 
 .Profile-picture {
@@ -63,6 +65,8 @@
 .Contact {
   grid-column: 2 / 3;
   text-align: left;
+  padding-top: 5%;
+  line-height: 1.5em;
 }
 
 @media only screen and (max-width: 800px) {

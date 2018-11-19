@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Icon } from 'semantic-ui-react'
 
 class BioCard extends Component {
     render () {
@@ -20,14 +21,13 @@ class BioCard extends Component {
                 </div>
                 <div className="Contact">
                     <h2 class="header">Lets Chat!</h2>
-                    <p>Phone</p>
-                    <p>Github</p>
-                    <p>Email</p>
-                    <p>Linkedin</p>
+                    <p><Icon link name='call square' size='large'/><a href="tel:1-408-555-5555">(917) 533 - 8826</a></p>
+                    <p><Icon link name='github' size='large'/><a href="https://github.com/krivera1015" target="_blank" rel='noreferrer noopener'>krivera1015</a></p>
+                    <p><Icon link name='mail square' size='large'/><a href="mailto:youremailaddress">krivera1015@gmail.com</a></p>
+                    <p><Icon link name='linkedin' size='large'/><a href="https://www.linkedin.com/in/kevin-rivera-805032103/" target="_blank" rel='noreferrer noopener'>krivera1015</a></p>
                 </div>
                 <div className="Modal">
-                    We are going to also put a modal that will pop up resume 
-                    then a button to actually download it
+                    
                 </div>
             </div>
         )
