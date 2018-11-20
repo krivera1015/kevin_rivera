@@ -3,10 +3,17 @@ import { Icon, Button } from 'semantic-ui-react'
 
 class BioCard extends Component {
     render () {
+        let background = {
+            backgroundImage: `url("https://res.cloudinary.com/dav4yqqvv/image/upload/v1542689491/Kev.png")`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            borderRadius: '50%',
+            width: '100%',
+        }
         return (
             <div className="Bio-container">
-                <div className="Profile-picture">
-                    <img id="kevin-pic" src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face"/>
+                <div className="Profile-picture" style={background}>
+                    {/* <img src="https://res.cloudinary.com/dav4yqqvv/image/upload/v1542463735/IMG_6508.jpg" alt="Smiley face"/> */}
                 </div>
                 <div className="About-me">
                     <h2 className="header">About Me</h2>
