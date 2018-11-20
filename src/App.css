@@ -18,19 +18,44 @@
   min-height: 100vh;
 }
 
-.Content {
-  color: #928C6F;
+.Nav-diamonds {
+
+}
+
+.Content{
+  color: #79B791;
+  font-size: 48pt;
+  transform-style: preserve-3d;
+}
+
+
+.Content:hover {
+	transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+}
+
+.Content:after {
+	top: -100%;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+  background: #79B791;
+  color: white;
+	border-radius: 5px;
+	content: 'Lets Find Out';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
 }
 
 .Bio-container {
-  background-color: #928C6F;
+  background-color: #79B791;
   padding-left: 5%;
   padding-right: 15%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   font-size: 12pt;
-  color: #C3C48D;
+  color: white;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -44,6 +69,7 @@
   color: #FBFEFB;
   line-height: 1.4em;
 }
+
 .About-me {
   grid-column: span 2;
   text-align: left;
@@ -72,6 +98,30 @@
 .Resume {
   align-self: center;
   text-align: left;
+}
+
+.Wall-header {
+  color: #79B791;
+  line-height: 3.0em;
+  font-size: 34pt;
+  font-weight: bold;
+}
+
+.Wall-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 12pt;
+  color: #79B791;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  grid-gap: 50px;
+}
+
+.ui.card.facts {
+  color: white;
+  background-color: #79B791;
+  padding: 8%;
 }
 
 @media only screen and (max-width: 800px) {

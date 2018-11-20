@@ -21,10 +21,10 @@ class FunFactPage extends Component {
     render () {
         return (
             <div>
-                <div className="Header">
+                <div className="Wall-header">
                     Fun Fact Wall
                 </div>
-                <div>
+                <div className="Wall-cards">
                     {this.renderFactCard()}
                 </div>
             </div>
