@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Card } from 'semantic-ui-react'
 
-class FunFactBackCard extends Component {
-    render () {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const FunFactBackCard = (props) => {
+    const {description} = props.fact
+    return (
+        <Card onClick={props.handleMouseOver}>
+            <Card.Content>
+                <Card.Header>{description}</Card.Header>
+            </Card.Content>
+        </Card>
+    )
 }
 
 export default FunFactBackCard

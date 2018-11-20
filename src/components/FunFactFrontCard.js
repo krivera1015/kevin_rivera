@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Card, Icon, Image } from 'semantic-ui-react'
 
-class FunFactFrontCard extends Component {
-    render () {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const FunFactFrontCard = (props) => {
+    const {category} = props.fact
+    console.log(category, "card")
+    return (
+        <Card onClick={props.handleMouseOver}>
+            <Card.Content>
+                <Card.Header>{category}</Card.Header>
+            </Card.Content>
+        </Card>
+    )
 }
 
 export default FunFactFrontCard

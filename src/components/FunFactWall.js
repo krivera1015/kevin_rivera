@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
 import FunFactFrontCard from './FunFactFrontCard';
 import FunFactBackCard from './FunFactBackCard';
-import funFacts from '../funFactData'
 
-class FunFactWall extends Component {
+class FunFactWall extends Component {    
 
     state = {
-        funFacts: {}
+        showFront: true
     }
 
-    componentDidMount() {
-        this.setState({funFacts})
+    handleMouseOver = () => {
+        this.setState((prevState) => {
+            return {showFront: !prevState.showFront}
+        })
     }
 
     render () {
-        console.log(this.state.funFacts)
+        console.log(this.props.funFact)
         return (
             <div>
-                <FunFactFrontCard funFacts={this.state.funFacts}/>
-                <FunFactBackCard funFacts={this.state.funFacts}/>
+                {this.state.showFront ? <FunFactFrontCard handleMouseOver={this.handleMouseOver} fact={this.props.funFact}/>  : <FunFactBackCard handleMouseOver={this.handleMouseOver} fact={this.props.funFact}/>}
             </div>
         )
     }
