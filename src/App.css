@@ -123,6 +123,24 @@
   padding: 8%;
 }
 
+.Portfolio {
+  background-color: #79B791;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 5%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.Portfolio-header {
+  color: #FBFEFB;
+  line-height: 3.0em;
+  font-size: 34pt;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
   .Bio-container { 
     display: grid;
@@ -130,6 +148,6 @@
   }
   .Wall-cards {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

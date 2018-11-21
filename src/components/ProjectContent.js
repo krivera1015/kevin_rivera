@@ -4,12 +4,19 @@ import { Card } from 'semantic-ui-react'
 class ProjectContent extends Component {
     render () {
         return (
-            <div>
-                <Card.Group itemsPerRow={3}>
-                    <Card color='red' image={src} />
-                    <Card color='orange' image={src} />
-                    <Card color='yellow' image={src} />
-                </Card.Group>
+            <div className="Portfolio">
+                <div className="Portfolio-header">
+                    Recent Projects
+                </div>
+                <div className="Project-card-1">
+                        <Card color='red' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762114/Screen_Shot_2018-11-20_at_8.01.00_PM.png"} />
+                <div className="Project-card-2">
+                        <Card color='orange' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762417/Screen_Shot_2018-11-20_at_8.04.20_PM.png"} />
+                </div>
+                <div className="Project-card-3">
+                        <Card color='yellow' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762450/Screen_Shot_2018-11-20_at_8.07.17_PM.png"} />
+                </div>
+                </div>
             </div>
         )
     }

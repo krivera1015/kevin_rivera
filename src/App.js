@@ -3,6 +3,7 @@ import FrontPage from "./containers/HomePage"
 import BioPage from './containers/BioPage';
 import './App.css';
 import FunFactPage from './containers/FunFactPage';
+import ProjectPage from './containers/ProjectPage';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <FrontPage/>
         <BioPage/>
         <FunFactPage/>
+        <ProjectPage/>
       </div>
     );
   }
