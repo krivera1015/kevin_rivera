@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #FBFEFB;
+}
+
+@media only screen and (max-width: 800px) {
+  .Bio-container { 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Wall-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

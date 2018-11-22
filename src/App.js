@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FrontPage from "./containers/HomePage"
 import BioPage from './containers/BioPage';
-import './App.css';
+import './css/App.css';
 import FunFactPage from './containers/FunFactPage';
 import ProjectPage from './containers/ProjectPage';
 

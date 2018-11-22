@@ -1,0 +1,36 @@
+/* .Home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+} */
+
+.Nav-diamonds {
+
+}
+
+.Content{
+    color: #79B791;
+    font-size: 48pt;
+    transform-style: preserve-3d;
+}
+
+.Content:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.Content:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    background: #79B791;
+    color: white;
+    border-radius: 5px;
+    content: 'Lets Find Out';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
