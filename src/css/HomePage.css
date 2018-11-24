@@ -7,8 +7,11 @@
     min-height: 100vh;
 } */
 
-.Nav-diamonds {
-
+.Home-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100vh;
+    grid-template-rows:  1fr 1fr;
 }
 
 .Content{
@@ -33,4 +36,8 @@
     content: 'Lets Find Out';
     transform-origin: left bottom;
     transform: rotateX(90deg);
+}
+
+.Nav-diamonds {
+
 }
