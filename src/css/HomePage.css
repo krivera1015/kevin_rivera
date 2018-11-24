@@ -1,11 +1,11 @@
-/* .Home-page {
+.Home-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
-} */
+}
 
 .Home-page {
     display: grid;
@@ -18,7 +18,7 @@
     color: #79B791;
     font-size: 48pt;
     transform-style: preserve-3d;
-    
+
 }
 
 .Content:hover {
