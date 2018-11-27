@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=FunFactPage.css.map */
+.Wall-header {
+  color: #79B791;
+  line-height: 3.0em;
+  font-size: 34pt;
+  font-weight: bold;
+}
+
+.Wall-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  font-size: 12pt;
+  color: #79B791;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  grid-gap: 50px;
+}
+
+.ui.card.facts {
+  color: white;
+  background-color: #79B791;
+  padding: 8%;
+  text-align: center;
+}
+/*# sourceMappingURL=FunFactPage.css.map */
