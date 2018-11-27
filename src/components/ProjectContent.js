@@ -17,22 +17,25 @@ class ProjectContent extends Component {
                 <div className="Portfolio-header">
                     Recent Projects
                 </div>
-                <div className="Project-card">
+                <div className="card-1">
                     <Modal trigger={<Card onClick={this.handleOnClick} color='red' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762114/Screen_Shot_2018-11-20_at_8.01.00_PM.png"}/>}>
-                        <Modal.Header>Select a Photo</Modal.Header>
+                        <Modal.Header>Munch</Modal.Header>
+                        <Modal.Description>
+                            Watch
+                        </Modal.Description>
                     </Modal>
-                <div className="Project-card">
+                </div>
+                <div className="card-2">
                     <Modal trigger={<Card onClick={this.handleOnClick} color='orange' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762417/Screen_Shot_2018-11-20_at_8.04.20_PM.png"}/>}>
                         <Modal.Header>Select a Photo</Modal.Header>
                     </Modal>
                 </div>
-                <div className="Project-card">
+                <div className="card-3">
                     <Modal trigger={<Card onClick={this.handleOnClick} color='yellow' image={"https://res.cloudinary.com/dav4yqqvv/image/upload/v1542762450/Screen_Shot_2018-11-20_at_8.07.17_PM.png"}/>}>
                         <Modal.Header>Select a Photo</Modal.Header>
                     </Modal>
                 </div>
                 </div>
-            </div>
         )
     }
 }

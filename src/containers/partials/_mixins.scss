@@ -29,3 +29,9 @@
     grid-template-columns: $gtc;
     grid-template-rows: $gtr;
 }
+
+@mixin section-header {
+    line-height: 3.0em;
+    font-size: 34pt;
+    font-weight: bold;
+}

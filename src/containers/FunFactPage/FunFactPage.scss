@@ -3,9 +3,7 @@
 
 .Wall-header {
     color: $main-color;
-    line-height: 3.0em;
-    font-size: 34pt;
-    font-weight: bold;
+    @include section-header;
 }
 
 .Wall-cards {
