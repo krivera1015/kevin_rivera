@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import FrontPage from "./containers/HomePage"
-import BioPage from './containers/BioPage';
+import FrontPage from "./containers/HomePage/HomePage"
+import BioPage from './containers/BioPage/BioPage';
 import './css/App.css';
-import FunFactPage from './containers/FunFactPage';
-import ProjectPage from './containers/ProjectPage';
+import FunFactPage from './containers/FunFactPage/FunFactPage';
+import ProjectPage from './containers/ProjectPage/ProjectPage';
 
 class App extends Component {
   render() {
