@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 1fr 10%;
+      grid-template-columns: 10% 1fr 10%;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "footer  footer  footer";
+}
+
+.Content {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  grid-area: content;
+}
+
+.Sidebar {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 3;
+  grid-area: sidebar-2;
+}
+
+/* .App {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FBFEFB;
+  } */
+/* @media only screen and (max-width: 800px) {
+    .Bio-container { 
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .Wall-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  } */
+/*# sourceMappingURL=App.css.map */

@@ -4,13 +4,18 @@ import BioPage from '../BioPage/BioPage';
 import './App.css';
 import FunFactPage from '../FunFactPage/FunFactPage';
 import ProjectPage from '../ProjectPage/ProjectPage';
+import {  Icon } from 'semantic-ui-react'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="Sidebar">
-        
+          <Icon link name='diamond'/>
+          <Icon link name='diamond'/>
+          <Icon link name='diamond'/>
+          <Icon link name='diamond'/>
         </div>
         <div className="Content">
           <FrontPage/>

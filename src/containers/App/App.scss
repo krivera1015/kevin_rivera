@@ -15,6 +15,14 @@
         "footer  footer  footer"
 }
 
+.Content {
+    grid-area: content;
+}
+
+.Sidebar {
+    grid-area: sidebar-2;
+}
+
   /* .App {
     text-align: center;
     box-sizing: border-box;
