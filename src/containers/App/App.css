@@ -3,13 +3,13 @@
   padding: 0;
 }
 
-.App {
+/* .App {
   text-align: center;
   box-sizing: border-box;
   background-color: #FBFEFB;
-}
+} */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .Bio-container { 
     display: grid;
     grid-template-columns: 1fr;
@@ -18,4 +18,4 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
+} */
