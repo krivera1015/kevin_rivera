@@ -3,7 +3,7 @@
 
 .Bio-container {
     background-color: $main-color;
-    @include bio-grid-formation($gtr: 1fr 1fr);
+    @include grid-formation($gtr: 1fr 1fr);
     font-size: $regular-font-size;
     color: $second-main-color;
     padding: 5% 10%;

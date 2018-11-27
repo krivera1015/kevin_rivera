@@ -24,7 +24,7 @@
     transform: rotateX(90deg);
 }
 
-@mixin bio-grid-formation($display: grid, $gtc: 1fr 1fr 1fr, $gtr: 1fr 1fr 1fr) {
+@mixin grid-formation($display: grid, $gtc: 1fr 1fr 1fr, $gtr: 1fr 1fr 1fr) {
     display: $display;
     grid-template-columns: $gtc;
     grid-template-rows: $gtr;

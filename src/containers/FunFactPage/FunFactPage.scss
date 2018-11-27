@@ -1,24 +1,24 @@
+@import '../partials/mixins';
+@import '../partials/variable';
+
 .Wall-header {
-    color: #79B791;
+    color: $main-color;
     line-height: 3.0em;
     font-size: 34pt;
     font-weight: bold;
 }
 
 .Wall-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    font-size: 12pt;
-    color: #79B791;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    @include grid-formation();
+    font-size: $regular-font-size;
+    color: $main-color;
+    padding: 5% 5%;
     grid-gap: 50px;
 }
 
 .ui.card.facts {
-    color: white;
-    background-color: #79B791;
+    color: $second-main-color;
+    background-color: $main-color;
     padding: 8%;
     text-align: center;
 }

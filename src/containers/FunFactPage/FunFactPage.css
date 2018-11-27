@@ -14,13 +14,12 @@
       grid-template-rows: 1fr 1fr 1fr;
   font-size: 12pt;
   color: #79B791;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5% 5%;
   grid-gap: 50px;
 }
 
 .ui.card.facts {
-  color: white;
+  color: #FBFEFB;
   background-color: #79B791;
   padding: 8%;
   text-align: center;
