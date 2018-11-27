@@ -1,1 +1,53 @@
-/* No CSS *//*# sourceMappingURL=BioPage.css.map */
+.Bio-container {
+  background-color: #79B791;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  font-size: 12pt;
+  color: #FBFEFB;
+  padding: 5% 10%;
+  grid-gap: 25px;
+}
+
+.Bio-container #Profile-picture {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  grid-column: span 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  width: 50%;
+  height: 50%;
+  padding: 50% 0%;
+}
+
+.Bio-container .About-me {
+  grid-column: span 2;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.Bio-container .header {
+  color: #FBFEFB;
+  line-height: 1.4em;
+}
+
+.Bio-container .Contact {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.Bio-container .Resume {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: left;
+}
+/*# sourceMappingURL=BioPage.css.map */

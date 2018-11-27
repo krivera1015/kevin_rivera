@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BioCard from '../../components/BioCard'
-//import '../css/BioPage.css';
+import './BioPage.css';
 
 
 class BioPage extends Component {
