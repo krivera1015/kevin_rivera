@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FrontPage from "../HomePage/HomePage"
+import FrontPage from '../HomePage/HomePage'
 import BioPage from '../BioPage/BioPage';
 import './App.css';
 import FunFactPage from '../FunFactPage/FunFactPage';
