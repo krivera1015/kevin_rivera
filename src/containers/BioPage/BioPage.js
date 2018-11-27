@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BioCard from "../components/BioCard"
+import BioCard from "../../components/BioCard"
 import '../css/BioPage.css';
 
 

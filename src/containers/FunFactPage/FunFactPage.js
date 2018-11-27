@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import FunFactWall from '../components/FunFactWall';
-import funFacts from '../funFactData';
+import FunFactWall from '../../components/FunFactWall';
+import funFacts from '../../funFactData';
 import '../css/FunFactPage.css';
 
 
