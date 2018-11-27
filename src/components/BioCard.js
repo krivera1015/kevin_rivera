@@ -9,7 +9,13 @@ class BioCard extends Component {
             backgroundSize: 'cover',
             borderRadius: '50%',
             width: '100%',
+            alignSelf: 'center',
+            gridColumn: '1 / 2',
+            gridRow: '1 / 3',
+            height: '50%',
+            padding: '50% 0%',
         }
+        
         return (
             <div className="Bio-container">
                 <div className="Profile-picture" style={background}>
