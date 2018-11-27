@@ -2,6 +2,7 @@
 @import '../partials/variable';
 
 .Wall-header {
+    @include center-1d-item;
     color: $main-color;
     @include section-header;
 }
