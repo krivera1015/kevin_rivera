@@ -12,10 +12,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Sidebar">
-          <Icon link name='diamond'/>
-          <Icon link name='diamond'/>
-          <Icon link name='diamond'/>
-          <Icon link name='diamond'/>
+          <ul id="Diamonds">
+            <li><Icon link name='diamond'/></li>
+            <li><Icon link name='diamond'/></li>
+            <li><Icon link name='diamond'/></li>
+            <li><Icon link name='diamond'/></li>
+          </ul>
         </div>
         <div className="Content">
           <FrontPage/>

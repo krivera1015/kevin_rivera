@@ -27,6 +27,10 @@
   grid-area: sidebar-2;
 }
 
+.Sidebar #Diamonds {
+  list-style-type: none;
+}
+
 /* .App {
     text-align: center;
     box-sizing: border-box;
