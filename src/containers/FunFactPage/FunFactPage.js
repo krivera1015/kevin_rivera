@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import FunFactWall from '../../components/FunFactWall';
 import funFacts from '../../funFactData';
-import '../css/FunFactPage.css';
+//import '../css/FunFactPage.css';
 
 
 class FunFactPage extends Component {
