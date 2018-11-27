@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=HomePage.css.map */
+.Home-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.Content {
+  color: #79B791;
+  font-size: 48pt;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.Content .Content:hover {
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  -webkit-transform: rotateX(-90deg) translateY(100%);
+          transform: rotateX(-90deg) translateY(100%);
+}
+
+.Content:after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: #79B791;
+  color: white;
+  border-radius: 5px;
+  content: 'Lets Find Out';
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+/*# sourceMappingURL=HomePage.css.map */

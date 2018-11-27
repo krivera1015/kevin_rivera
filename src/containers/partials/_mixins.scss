@@ -1,0 +1,25 @@
+@mixin center-1d-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin hover-3d {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+@mixin after-hover {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    background: #79B791;
+    color: white;
+    border-radius: 5px;
+    content: 'Lets Find Out';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}

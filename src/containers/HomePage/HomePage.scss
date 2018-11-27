@@ -1,0 +1,24 @@
+@import "../partials/mixins";
+@import "../partials/variable";
+
+
+.Home-page {
+    @include center-1d-item;
+    min-height: 100vh;
+}
+
+.Content{
+    color: $main-color;
+    font-size: $title-font-size;
+    transform-style: preserve-3d;
+    .Content:hover {
+        @include hover-3d;
+    }
+    .Content:after {
+
+    }
+}
+
+.Content:after {
+    @include after-hover;
+}
