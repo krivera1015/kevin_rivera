@@ -15,10 +15,6 @@
         @include hover-3d;
     }
     .Content:after {
-
+        @include after-hover;
     }
-}
-
-.Content:after {
-    @include after-hover;
 }
