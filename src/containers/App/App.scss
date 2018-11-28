@@ -19,6 +19,7 @@
     grid-area: content;
 }
 
+
 .Sidebar {
     grid-area: sidebar-2;
     #Diamonds {
@@ -41,7 +42,10 @@
     }
 }
 
-  /* .App {
+.Footer {
+    grid-area: footer
+}
+/* .App {
     text-align: center;
     box-sizing: border-box;
     background-color: #FBFEFB;

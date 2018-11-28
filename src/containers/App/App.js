@@ -5,6 +5,7 @@ import './App.css';
 import FunFactPage from '../FunFactPage/FunFactPage';
 import ProjectPage from '../ProjectPage/ProjectPage';
 import {  Icon } from 'semantic-ui-react'
+import Footer from '../Footer/Footer';
 
 
 class App extends Component {
@@ -26,7 +27,7 @@ class App extends Component {
           <ProjectPage/>
         </div>
         <div className="Footer">
-
+          <Footer/>
         </div>
       </div>
     );

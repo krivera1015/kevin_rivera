@@ -51,6 +51,13 @@
   position: fixed;
 }
 
+.Footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+
 /* .App {
     text-align: center;
     box-sizing: border-box;

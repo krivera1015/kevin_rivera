@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,CAAC;EACJ,WAAW,EAAE,EAAE;EACf,cAAc,EAAE,EAAE;EAClB,gBAAgB,EENP,OAAO;EFOhB,KAAK,EEHW,OAAO;CFI1B",
+    "sources": [
+        "Footer.scss",
+        "../partials/_mixins.scss",
+        "../partials/_variable.scss",
+        "../partials/_variable.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}
