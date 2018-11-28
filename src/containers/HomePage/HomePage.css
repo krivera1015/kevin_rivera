@@ -14,10 +14,11 @@
           align-items: center;
   text-align: center;
   min-height: 100vh;
+  background-color: #79B791;
 }
 
 .Content {
-  color: #79B791;
+  color: #FBFEFB;
   font-size: 48pt;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -35,8 +36,8 @@
   left: 0px;
   width: 100%;
   position: absolute;
-  background: #79B791;
-  color: white;
+  background: #FBFEFB;
+  color: #79B791;
   border-radius: 5px;
   content: 'Lets Find Out';
   -webkit-transform-origin: left bottom;

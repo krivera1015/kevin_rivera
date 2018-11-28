@@ -5,10 +5,11 @@
 .Home-page {
     @include center-1d-item;
     min-height: 100vh;
+    background-color: $main-color;
 }
 
 .Content{
-    color: $main-color;
+    color: $second-main-color;
     font-size: $title-font-size;
     transform-style: preserve-3d;
     .Content:hover {

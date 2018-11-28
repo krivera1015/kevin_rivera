@@ -6,29 +6,49 @@
 .App {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 10% 1fr 10%;
-      grid-template-columns: 10% 1fr 10%;
+  -ms-grid-columns: 1fr 2%;
+      grid-template-columns: 1fr 2%;
   -ms-grid-rows: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      grid-template-areas: "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "sidebar-1 content sidebar-2" "footer  footer  footer";
+      grid-template-areas: "content sidebar-2" "content sidebar-2" "content sidebar-2" "content sidebar-2" "footer  footer";
 }
 
 .Content {
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: content;
 }
 
 .Sidebar {
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   grid-area: sidebar-2;
 }
 
 .Sidebar #Diamonds {
+  padding-top: 250%;
   list-style-type: none;
+  vertical-align: middle;
+  line-height: 100px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.Sidebar li {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.Sidebar li:hover {
+  background: #848484;
+  color: #212121;
+}
+
+.Sidebar .fixed-nav {
+  position: fixed;
 }
 
 /* .App {

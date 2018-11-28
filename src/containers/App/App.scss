@@ -5,14 +5,14 @@
 
 .App {
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 1fr 2%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        "sidebar-1 content sidebar-2"
-        "sidebar-1 content sidebar-2"
-        "sidebar-1 content sidebar-2"
-        "sidebar-1 content sidebar-2"
-        "footer  footer  footer"
+        "content sidebar-2"
+        "content sidebar-2"
+        "content sidebar-2"
+        "content sidebar-2"
+        "footer  footer"
 }
 
 .Content {
@@ -22,7 +22,22 @@
 .Sidebar {
     grid-area: sidebar-2;
     #Diamonds {
-        list-style-type:none
+        padding-top: 250%;
+        list-style-type:none;
+        vertical-align: middle;
+        line-height: 100px;
+        justify-self: center;
+    }
+    li {
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+    li:hover {
+        background: #848484;
+        color: #212121;   
+    }
+    .fixed-nav {
+        position: fixed;
     }
 }
 

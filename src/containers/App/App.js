@@ -13,10 +13,10 @@ class App extends Component {
       <div className="App">
         <div className="Sidebar">
           <ul id="Diamonds">
-            <li><Icon link name='diamond'/></li>
-            <li><Icon link name='diamond'/></li>
-            <li><Icon link name='diamond'/></li>
-            <li><Icon link name='diamond'/></li>
+            <li><Icon size="large" link name='diamond'/></li>
+            <li><Icon size="large" link name='diamond'/></li>
+            <li><Icon size="large" link name='diamond'/></li>
+            <li><Icon size="large" link name='diamond'/></li>
           </ul>
         </div>
         <div className="Content">

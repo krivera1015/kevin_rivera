@@ -2,10 +2,10 @@
 @import '../partials/variable';
 
 .Portfolio {
-    background-color: $main-color;
+    background-color: $second-main-color;
     .Portfolio-header {
         @include center-1d-item;
-        color: $second-main-color;
+        color: $main-color;
         @include section-header;
     }
     .Card-grid {

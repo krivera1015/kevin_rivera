@@ -11,7 +11,9 @@
     @include grid-formation();
     font-size: $regular-font-size;
     color: $main-color;
-    padding: 5% 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
     grid-gap: 50px;
 }
 

@@ -1,3 +1,5 @@
+@import '../partials/variable';
+
 @mixin center-1d-item {
     display: flex;
     flex-direction: column;
@@ -16,8 +18,8 @@
     left: 0px;
     width: 100%;
     position: absolute;
-    background: #79B791;
-    color: white;
+    background: #FBFEFB;
+    color: #79B791;
     border-radius: 5px;
     content: 'Lets Find Out';
     transform-origin: left bottom;

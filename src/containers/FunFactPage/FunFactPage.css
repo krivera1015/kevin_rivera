@@ -28,7 +28,9 @@
       grid-template-rows: 1fr 1fr 1fr;
   font-size: 12pt;
   color: #79B791;
-  padding: 5% 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 7%;
   grid-gap: 50px;
 }
 

@@ -1,5 +1,5 @@
 .Portfolio {
-  background-color: #79B791;
+  background-color: #FBFEFB;
 }
 
 .Portfolio .Portfolio-header {
@@ -17,7 +17,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #FBFEFB;
+  color: #79B791;
   line-height: 3.0em;
   font-size: 34pt;
   font-weight: bold;
