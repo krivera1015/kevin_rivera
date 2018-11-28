@@ -2,8 +2,15 @@
 @import '../partials/variable';
 
 .Footer {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 2%;
     background-color: $main-color;
     color: $second-main-color;
+    .contact {
+        @include center-1d-item;
+        padding-bottom: 2%;
+    }
+    .name {
+        @include center-1d-item;
+    }
 }
