@@ -22,13 +22,9 @@
   font-size: 48pt;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-}
-
-.Content .Content:hover {
-  -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
-  -webkit-transform: rotateX(-90deg) translateY(100%);
-          transform: rotateX(-90deg) translateY(100%);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  position: relative;
 }
 
 .Content .Content:after {
@@ -37,12 +33,19 @@
   width: 100%;
   position: absolute;
   background-color: #79B791;
+  content: "Let's Find Out!";
   color: #FBFEFB;
-  border-radius: 5px;
-  content: 'Lets Find Out';
+  border-radius: 50px;
   -webkit-transform-origin: left bottom;
           transform-origin: left bottom;
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
+}
+
+.Content .Content:hover {
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  -webkit-transform: rotateX(-90deg) translateY(100%);
+          transform: rotateX(-90deg) translateY(100%);
 }
 /*# sourceMappingURL=HomePage.css.map */

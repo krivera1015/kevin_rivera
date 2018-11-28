@@ -7,24 +7,24 @@
     align-items: center;
     text-align: center;
 }
-
-@mixin hover-3d {
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
-}
-
 @mixin after-hover {
     top: -100%;
     left: 0px;
     width: 100%;
     position: absolute;
     background-color: #79B791;
+    content: "Let's Find Out!";
     color: #FBFEFB;
-    border-radius: 5px;
-    content: 'Lets Find Out';
+    border-radius: 50px;
     transform-origin: left bottom;
     transform: rotateX(90deg);
 }
+
+@mixin hover-3d {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
 
 @mixin grid-formation($display: grid, $gtc: 1fr 1fr 1fr, $gtr: 1fr 1fr 1fr) {
     display: $display;

@@ -12,10 +12,12 @@
     color: $main-color;
     font-size: $title-font-size;
     transform-style: preserve-3d;
-    .Content:hover {
-        @include hover-3d;
-    }
+    transition: 0.8s;
+    position: relative;
     .Content:after {
         @include after-hover;
+    }
+    .Content:hover {
+        @include hover-3d;
     }
 }

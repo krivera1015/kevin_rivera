@@ -10,7 +10,6 @@
 .Wall-cards {
     @include grid-formation();
     font-size: $regular-font-size;
-    color: $main-color;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 7%;
@@ -18,10 +17,17 @@
 }
 
 .ui.card.facts {
-    color: $second-main-color;
     background-color: $main-color;
     padding: 8%;
     text-align: center;
+    margin:0;
+}
+
+.ui.back.card.facts {
+    background-color: $second-main-color;
+    height: 50px;
+    min-height: 150px;
+    overflow-y: scroll;
 }
 
 // @media only screen and (max-width: 800px) {

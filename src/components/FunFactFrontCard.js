@@ -5,7 +5,7 @@ const FunFactFrontCard = (props) => {
     const {category} = props.fact
     console.log(category, "card")
     return (
-        <Card className="ui card facts" color='grey' onClick={props.handleMouseOver}>
+        <Card className="ui card facts" onClick={props.handleMouseOver}>
             <Card.Content>
                 <Card.Header>{category}</Card.Header>
             </Card.Content>
